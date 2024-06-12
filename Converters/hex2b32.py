@@ -12,7 +12,7 @@ def main():
     try:
 
         base32_result = hex_to_base32(user_input)
-        # display
+       
         print(f"Base32 representation: {base32_result}")
     except ValueError:
         print("Invalid hexadecimal input.")
