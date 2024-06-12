@@ -9,9 +9,9 @@ def main():
     # Get user input
     user_input = input("Enter the hexadecimal string with no spaces to convert to text: ")
     try:
-        # Convert the input hexadecimal string to text
+        
         text_result = hex_to_text(user_input)
-        # Display the result
+        
         print(f"Text representation: {text_result}")
     except ValueError:
         print("Invalid hexadecimal input.")
