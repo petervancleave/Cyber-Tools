@@ -21,11 +21,9 @@ def open_file_dialog():
     if file_path:
         parse_file(file_path)
 
-# main application window
 app = tk.Tk()
 app.title("Enhanced Text File Parser")
 
-# open button
 open_button = tk.Button(app, text="Open File", command=open_file_dialog)
 open_button.pack(pady=20)
 
