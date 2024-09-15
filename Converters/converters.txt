@@ -1,5 +1,1 @@
-various converters including:
-
-----
-
-use in cmd or terminal.
+terminal
