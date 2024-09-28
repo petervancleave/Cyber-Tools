@@ -1,4 +1,4 @@
-# website uptime checker script
+# website uptime checker
 $websiteUrl = "https://www.example.com"
 
 try {
