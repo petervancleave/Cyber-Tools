@@ -1,4 +1,4 @@
-# 9:00 AM 2/8/2024
+# 2/8/2024
 
 import tkinter as tk
 from tkinter import messagebox
