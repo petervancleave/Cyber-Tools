@@ -4,7 +4,7 @@ import string
 def generate_password(length):
     # character set
     characters = string.ascii_letters + string.digits + string.punctuation
-    # Ensure the password has at least one lowercase, one uppercase, one digit, and one symbol
+    # password has at least one lowercase, one uppercase, one digit, and one symbol
     password = [
         random.choice(string.ascii_lowercase),
         random.choice(string.ascii_uppercase),
@@ -26,9 +26,8 @@ def generate_unique_passwords(num_passwords, min_length, max_length):
         unique_passwords.add(new_password)
     return list(unique_passwords)
 
-# Generate 10 unique passwords with lengths between 12-15 characters
+# Make 10 unique passwords with lengths between 12-15 characters
 passwords = generate_unique_passwords(10, 12, 15)
 
-# Output the passwords
 for i, password in enumerate(passwords, 1):
     print(f"Password {i}: {password}")
