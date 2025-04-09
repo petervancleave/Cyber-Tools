@@ -112,7 +112,7 @@ crack_hash() {
 main() {
     clear
     echo -e "${GREEN}===========================================${NC}"
-    echo -e "${GREEN}       Advanced Hash Cracking Tool        ${NC}"
+    echo -e "${GREEN}       Auto Hash Cracking Tool        ${NC}"
     echo -e "${GREEN}===========================================${NC}"
     
     # Check requirements
