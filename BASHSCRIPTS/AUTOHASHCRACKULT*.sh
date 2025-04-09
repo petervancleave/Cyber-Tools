@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# ========================================
 # Automatically detects and cracks various hash types
-# ========================================
 
 set -e # exit on error
 
