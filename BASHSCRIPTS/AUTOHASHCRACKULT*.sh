@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # ========================================
-# Hash Cracking Script
 # Automatically detects and cracks various hash types
 # ========================================
 
